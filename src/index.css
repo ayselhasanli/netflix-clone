@@ -15,6 +15,10 @@
   --navbar-text: #e5e5e5;
   --navbar-bg: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 10%, transparent);
   --navbar-dropdown-bg: #191919;
+  --bg-white: #ffffff;
+  --dark-btn: #6d6d6eb3;
+  --btn-hover-bg: #ffffffbf;
+  --dark-btn-hover-bg: #6d6d6e66;
 }
 
 body {
