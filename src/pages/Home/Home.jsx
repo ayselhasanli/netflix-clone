@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import hero_banner from "../../assets/media/hero_banner.jpg";
 import hero_title from "../../assets/media/hero_title.png";
 import TitleCards from "../../components/TitleCards/TitleCards";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
         <TitleCards title={"Upcoming"} />
         <TitleCards title={"Top Movies for You"} />
       </div>
+      <Footer />
     </section>
   );
 };
