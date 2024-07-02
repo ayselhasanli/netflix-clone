@@ -3,6 +3,7 @@ import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import hero_banner from "../../assets/media/hero_banner.jpg";
 import hero_title from "../../assets/media/hero_title.png";
+import TitleCards from "../../components/TitleCards/TitleCards";
 
 const Home = () => {
   return (
@@ -25,8 +26,15 @@ const Home = () => {
               <i class="fa-solid fa-circle-info"></i> More Info
             </button>
           </div>
+          <TitleCards />
         </div>
       </section>
+      <div className="more-cards">
+        <TitleCards title={"Blockbuster Movies"} />
+        <TitleCards title={"Only on Netflix"} />
+        <TitleCards title={"Upcoming"} />
+        <TitleCards title={"Top Movies for You"} />
+      </div>
     </section>
   );
 };

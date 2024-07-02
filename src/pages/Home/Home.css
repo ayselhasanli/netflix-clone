@@ -11,6 +11,7 @@
   position: absolute;
   padding-left: 6%;
   bottom: 0;
+  max-width: 100%;
 }
 
 .home .hero .hero-caption .caption-img {
@@ -47,10 +48,6 @@
   background: var(--btn-hover-bg);
 }
 
-.home .hero .hero-caption .hero-btns .btn.dark-btn:hover {
-  background: var(--dark-btn-hover-bg);
-}
-
 .home .hero .hero-caption .hero-btns .btn i {
   font-size: 2.5rem;
 }
@@ -58,4 +55,12 @@
 .home .hero .hero-caption .hero-btns .btn.dark-btn {
   color: var(--text-white);
   background-color: var(--dark-btn);
+}
+
+.home .hero .hero-caption .hero-btns .btn.dark-btn:hover {
+  background: var(--dark-btn-hover-bg);
+}
+
+.more-cards{
+  padding-left: 6%;
 }
